@@ -2,7 +2,7 @@ name: Danger
 on:
   pull_request:
     paths:
-      # - '.swiftlint.yml'
+      - '.swiftlint.yml'
       - '**/*.swift'
 jobs:
   Danger:
